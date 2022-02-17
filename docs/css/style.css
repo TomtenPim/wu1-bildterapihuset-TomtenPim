@@ -1,3 +1,41 @@
+html{
+    width:100%
+}
+
 body {
+    width:100%;
     background-color: blanchedalmond;
+    margin: 0;
+}
+
+@media(min-width:1920px){
+    body{
+        background-color:green;
+    }
+}
+
+header {
+    max-height: 100px;
+    background-color: #ff6;
+    display:flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    alig
+}
+
+.options{    
+}
+@media(max-width:576px){
+    .options{
+        flex-direction: column;
+    }
+}
+
+.logo{
+    size: 100%;
+
+}
+
+h2{
+    background-color: #e8d951;
 }
