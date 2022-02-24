@@ -14,16 +14,23 @@ body {
     }
 }
 
-header {
+nav {
     max-height: 100px;
     background-color: #ff6;
-    display:flex; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
-    alig
+    justify-content: space-between;
 }
 
-.options{    
+.options{ 
+    padding: 0;
+    list-style-type: none;   
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
 }
 @media(max-width:576px){
     .options{
@@ -31,11 +38,29 @@ header {
     }
 }
 
+.listItem{
+    padding: 5px;
+    margin: 5px;
+    background-color: #e8d951;
+    text-align: center;
+    min-width: 5rem; 
+}
+
+h1{
+    padding: 5px;
+    background-color: #e8d951;
+}
+
+h1:hover{
+    color:blue;
+}
+
+
+li:hover{
+    color:blue;
+}
+
 .logo{
     size: 100%;
 
-}
-
-h2{
-    background-color: #e8d951;
 }
