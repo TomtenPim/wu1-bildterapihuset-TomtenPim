@@ -3,7 +3,12 @@ html{
 }
 
 body {
+    font-family: 'Arsenal', sans-serif;
+    font-weight: 600;
+
     width:100%;
+    background-image: url("https://cdn.discordapp.com/attachments/851211221414838293/953945538917703700/backLargeuse.png");
+    background-size: 100%;
     background-color: blanchedalmond;
     margin: 0;
 }
@@ -63,4 +68,24 @@ li:hover{
 .logo{
     size: 100%;
 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    width: 60%;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 1rem;
+    background-color: beige;
+}
+
+footer{
+background-color: #ff6;
+width: 100%;
+height: 2rem;
 }
